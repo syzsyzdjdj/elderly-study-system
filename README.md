@@ -4,7 +4,7 @@
 
 **技术栈：** Vue 3 / Vite / Vant / Pinia · Java 17 / Spring Boot / Spring Security / MyBatis-Plus · MySQL 8 / Flyway · Spark。ChatTTS 和外部大模型是可选服务。
 
-[最小启动](docs/quickstart.md) · [架构与实现](docs/architecture.md) · [演示与面试说明](docs/demo-guide.md) · [公开准备状态](docs/release-readiness.md) · [安全说明](SECURITY.md)
+[最小启动](docs/quickstart.md) · [架构与实现](docs/architecture.md) ·   [公开准备状态](docs/release-readiness.md) · [安全说明](SECURITY.md)
 
 ## 界面预览
 
