@@ -30,7 +30,7 @@
 | 外部 AI 服务不可用时如何保留问答 | 人工审核 FAQ 优先，外部模型按配置启用，失败后降级本地规则；返回来源标识 | [问答服务](backend/src/main/java/com/elderly/service/impl/AiChatServiceImpl.java) |
 | 新环境如何复现并限制权限 | Flyway 版本迁移、独立应用/迁移账号、显式创建首次管理员、生产配置校验和备份脚本 | [快速启动](docs/quickstart.md)、[部署文档](docs/first-deployment.md) |
 
-以上描述代码中已有实现，不代表真实用户业务效果、生产容量或作者个人贡献已经得到独立验证。个人负责范围应按实际开发记录补充，见 [面试说明](docs/demo-guide.md)。
+以上描述代码中已有实现，不代表真实用户业务效果、生产容量或作者个人贡献已经得到独立验证。
 
 ## 系统结构
 
