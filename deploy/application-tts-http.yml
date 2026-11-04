@@ -1,0 +1,11 @@
+# 外部配置示例；部署时将地址替换成真实的私网地址。
+chattts:
+  mode: http
+  api-url: ${TTS_API_URL:http://127.0.0.1:5050/generate}
+  startup-warmup: true
+  prewarm-on-startup: true
+  cache-version: ${TTS_CACHE_VERSION:v1}
+  connect-timeout: 5000
+  request-timeout: 180000
+upload:
+  dir: /var/lib/elderly-study/uploads

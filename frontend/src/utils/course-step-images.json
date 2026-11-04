@@ -1,0 +1,779 @@
+{
+  "1": {
+    "title": "养老金资格认证",
+    "goal": "跟着四个步骤学习养老金资格认证。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到官方入口",
+        "action": "打开官方电子社保卡入口。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-1.png",
+        "panel": 0
+      },
+      {
+        "title": "核对本人信息",
+        "action": "核对姓名和身份证信息。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-1.png",
+        "panel": 1
+      },
+      {
+        "title": "按提示完成认证",
+        "action": "由本人按屏幕提示完成认证。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-1.png",
+        "panel": 2
+      },
+      {
+        "title": "查看认证结果",
+        "action": "确认结果并保存办理记录。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-1.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "2": {
+    "title": "医保电子凭证",
+    "goal": "跟着四个步骤学习医保电子凭证。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "进入官方入口",
+        "action": "找到官方医保服务入口。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-2.png",
+        "panel": 0
+      },
+      {
+        "title": "核对参保信息",
+        "action": "核对姓名和参保地。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-2.png",
+        "panel": 1
+      },
+      {
+        "title": "本人完成激活",
+        "action": "按官方页面提示完成身份验证。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-2.png",
+        "panel": 2
+      },
+      {
+        "title": "需要时出示医保码",
+        "action": "在正规医院药店出示动态医保码。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-2.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "3": {
+    "title": "微信视频通话",
+    "goal": "跟着四个步骤学习微信视频通话。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到家人",
+        "action": "在微信聊天列表点家人。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-3.png",
+        "panel": 0
+      },
+      {
+        "title": "点聊天右下角加号",
+        "action": "点击输入框右侧加号。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-3.png",
+        "panel": 1
+      },
+      {
+        "title": "选择视频通话",
+        "action": "在更多功能里选择视频通话。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-3.png",
+        "panel": 2
+      },
+      {
+        "title": "结束后点挂断",
+        "action": "聊天结束点击红色挂断按钮。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-3.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "4": {
+    "title": "调大字体与声音",
+    "goal": "跟着四个步骤学习调大字体与声音。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开设置",
+        "action": "在手机桌面打开设置。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-4.png",
+        "panel": 0
+      },
+      {
+        "title": "找到显示菜单",
+        "action": "在设置中找到显示与亮度。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-4.png",
+        "panel": 1
+      },
+      {
+        "title": "向右调大字体",
+        "action": "拖动滑块并检查预览文字。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-4.png",
+        "panel": 2
+      },
+      {
+        "title": "分别调整音量",
+        "action": "在声音设置中分别调整媒体与铃声。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-4.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "5": {
+    "title": "防范电信诈骗",
+    "goal": "跟着四个步骤学习防范电信诈骗。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "识别可疑要求",
+        "action": "留意陌生人索要验证码或要求转账。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-5.png",
+        "panel": 0
+      },
+      {
+        "title": "立即结束联系",
+        "action": "不要按对方指示操作，结束通话。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-5.png",
+        "panel": 1
+      },
+      {
+        "title": "用原号码核实",
+        "action": "通过原有联系人向家人核实。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-5.png",
+        "panel": 2
+      },
+      {
+        "title": "保存线索求助",
+        "action": "保存线索，已受损时及时报警。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-5.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "6": {
+    "title": "手机预约挂号",
+    "goal": "跟着四个步骤学习手机预约挂号。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到医院官方入口",
+        "action": "进入医院官方预约平台。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-6.png",
+        "panel": 0
+      },
+      {
+        "title": "选择科室与医生",
+        "action": "按需要选择科室和医生。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-6.png",
+        "panel": 1
+      },
+      {
+        "title": "核对预约信息",
+        "action": "核对就诊人日期时间和费用。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-6.png",
+        "panel": 2
+      },
+      {
+        "title": "查看预约成功记录",
+        "action": "完成后查看预约记录和到院要求。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-6.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "7": {
+    "title": "异地就医备案",
+    "goal": "跟着四个步骤学习异地就医备案。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到官方医保入口",
+        "action": "在官方医保服务中找到备案入口。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-7.png",
+        "panel": 0
+      },
+      {
+        "title": "填写地区与类型",
+        "action": "按实际情况填写参保地就医地和备案类型。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-7.png",
+        "panel": 1
+      },
+      {
+        "title": "按提示提交材料",
+        "action": "核对官方要求后提交必要材料。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-7.png",
+        "panel": 2
+      },
+      {
+        "title": "查看办理状态",
+        "action": "在备案记录查看状态和后续要求。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-7.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "8": {
+    "title": "电子社保卡",
+    "goal": "跟着四个步骤学习电子社保卡。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到官方社保服务",
+        "action": "进入官方电子社保卡服务。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-8.png",
+        "panel": 0
+      },
+      {
+        "title": "核对本人信息",
+        "action": "核对身份信息后按提示申领。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-8.png",
+        "panel": 1
+      },
+      {
+        "title": "本人完成验证",
+        "action": "由本人完成官方页面的身份验证。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-8.png",
+        "panel": 2
+      },
+      {
+        "title": "查看申领结果",
+        "action": "在个人页面查看卡片和服务入口。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-8.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "9": {
+    "title": "微信红包",
+    "goal": "跟着四个步骤学习微信红包。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到熟悉的联系人",
+        "action": "打开熟悉的家人聊天窗口。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-9.png",
+        "panel": 0
+      },
+      {
+        "title": "在加号菜单选红包",
+        "action": "展开加号菜单并找到红包。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-9.png",
+        "panel": 1
+      },
+      {
+        "title": "核对对象和金额",
+        "action": "填写金额后先核对收款对象。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-9.png",
+        "panel": 2
+      },
+      {
+        "title": "确认发送并查记录",
+        "action": "确实需要时才支付，发送后查记录。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-9.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "10": {
+    "title": "手机拍照",
+    "goal": "跟着四个步骤学习手机拍照。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开相机",
+        "action": "在手机桌面轻点相机。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-10.png",
+        "panel": 0
+      },
+      {
+        "title": "对准画面并对焦",
+        "action": "用镜头对准目标，轻点主体对焦。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-10.png",
+        "panel": 1
+      },
+      {
+        "title": "轻点快门",
+        "action": "拿稳手机，轻点屏幕下方快门。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-10.png",
+        "panel": 2
+      },
+      {
+        "title": "查看照片",
+        "action": "进入相册查看刚拍的照片。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-10.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "11": {
+    "title": "手机支付安全",
+    "goal": "跟着四个步骤学习手机支付安全。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "先核对商家",
+        "action": "在付款前核对商家或收款对象。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-11.png",
+        "panel": 0
+      },
+      {
+        "title": "再核对金额",
+        "action": "看清金额，发现异常立即停止。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-11.png",
+        "panel": 1
+      },
+      {
+        "title": "保护付款界面",
+        "action": "付款码仅现场出示，不发给陌生人。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-11.png",
+        "panel": 2
+      },
+      {
+        "title": "完成后查账单",
+        "action": "付款完成后在账单核对记录。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-11.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "12": {
+    "title": "警惕保健品骗局",
+    "goal": "跟着四个步骤学习警惕保健品骗局。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "识别夸大宣传",
+        "action": "看到包治百病等宣传先暂停。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-12.png",
+        "panel": 0
+      },
+      {
+        "title": "拒绝立即付款",
+        "action": "不要因为限时优惠立刻付款。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-12.png",
+        "panel": 1
+      },
+      {
+        "title": "向家人核实",
+        "action": "将信息发给熟悉的家人讨论。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-12.png",
+        "panel": 2
+      },
+      {
+        "title": "保留宣传与订单",
+        "action": "保存聊天宣传和订单以便求助。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-12.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "13": {
+    "title": "辨别网络谣言",
+    "goal": "跟着四个步骤学习辨别网络谣言。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "先看消息来源",
+        "action": "收到转发消息先查看来源。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-13.png",
+        "panel": 0
+      },
+      {
+        "title": "先不转发",
+        "action": "没有核实前不要再次转发。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-13.png",
+        "panel": 1
+      },
+      {
+        "title": "查找权威信息",
+        "action": "在官方媒体或辟谣渠道核实。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-13.png",
+        "panel": 2
+      },
+      {
+        "title": "对可疑消息举报",
+        "action": "使用平台举报入口描述问题。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-13.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "14": {
+    "title": "识别刷单骗局",
+    "goal": "跟着四个步骤学习识别刷单骗局。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "识别垫钱要求",
+        "action": "遇到先垫钱后返利要求就警惕。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-14.png",
+        "panel": 0
+      },
+      {
+        "title": "停止转账",
+        "action": "不要继续付款或借款补单。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-14.png",
+        "panel": 1
+      },
+      {
+        "title": "保存对话记录",
+        "action": "保存任务要求转账与聊天记录。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-14.png",
+        "panel": 2
+      },
+      {
+        "title": "及时寻求帮助",
+        "action": "已经损失时及时联系警方和银行。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-14.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "15": {
+    "title": "生活缴费",
+    "goal": "跟着四个步骤学习生活缴费。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开生活缴费",
+        "action": "进入正规服务中的生活缴费。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-15.png",
+        "panel": 0
+      },
+      {
+        "title": "核对城市与单位",
+        "action": "选择项目并核对城市缴费单位。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-15.png",
+        "panel": 1
+      },
+      {
+        "title": "核对户号账单",
+        "action": "照缴费单核对户号户名地址金额。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-15.png",
+        "panel": 2
+      },
+      {
+        "title": "查看缴费记录",
+        "action": "需要时支付，完成后检查状态。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-15.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "16": {
+    "title": "手机叫车",
+    "goal": "跟着四个步骤学习手机叫车。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开正规出行入口",
+        "action": "在正规出行服务中进入打车。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-16.png",
+        "panel": 0
+      },
+      {
+        "title": "核对起点和终点",
+        "action": "填写目的地并确认上车位置。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-16.png",
+        "panel": 1
+      },
+      {
+        "title": "确认车型费用",
+        "action": "查看车型和预估费用后再呼叫。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-16.png",
+        "panel": 2
+      },
+      {
+        "title": "上车前核对车牌",
+        "action": "核对车牌司机信息并向家人分享行程。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-16.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "17": {
+    "title": "线上问诊与购药",
+    "goal": "跟着四个步骤学习线上问诊与购药。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "找到正规服务",
+        "action": "进入正规医院或合规药店的官方服务。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-17.png",
+        "panel": 0
+      },
+      {
+        "title": "填写实际需求",
+        "action": "如实描述症状或选择需要咨询的问题。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-17.png",
+        "panel": 1
+      },
+      {
+        "title": "核对处方和订单",
+        "action": "遵循医生指导，核对药品和订单。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-17.png",
+        "panel": 2
+      },
+      {
+        "title": "查看后续记录",
+        "action": "保存订单和咨询记录以便联系服务方。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-17.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "18": {
+    "title": "晨练散步与太极入门",
+    "goal": "跟着四个步骤学习晨练散步与太极入门。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "出门前做好准备",
+        "action": "检查天气穿着并告知家人去向。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-18.png",
+        "panel": 0
+      },
+      {
+        "title": "先慢慢热身",
+        "action": "根据自身情况从轻缓活动开始。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-18.png",
+        "panel": 1
+      },
+      {
+        "title": "跟随合适指导",
+        "action": "跟随正规教学，按自身能力学习。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-18.png",
+        "panel": 2
+      },
+      {
+        "title": "不舒服及时停下",
+        "action": "不适时停止活动，必要时寻求帮助。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-18.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "19": {
+    "title": "三餐营养与饮食安全",
+    "goal": "跟着四个步骤学习三餐营养与饮食安全。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "先规划一餐",
+        "action": "按个人饮食需要安排餐食。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-19.png",
+        "panel": 0
+      },
+      {
+        "title": "搭配不同食物",
+        "action": "结合个人情况搭配主食蛋白质和蔬果。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-19.png",
+        "panel": 1
+      },
+      {
+        "title": "检查食物状态",
+        "action": "食用前查看保质期和食物状态。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-19.png",
+        "panel": 2
+      },
+      {
+        "title": "按需记录调整",
+        "action": "有特殊饮食要求时遵循专业指导。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-19.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "20": {
+    "title": "手机看短视频与戏曲",
+    "goal": "跟着四个步骤学习手机看短视频与戏曲。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开正规视频应用",
+        "action": "打开正规安装的视频应用。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-20.png",
+        "panel": 0
+      },
+      {
+        "title": "搜索喜欢的戏曲",
+        "action": "在搜索栏输入戏曲或剧团名称。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-20.png",
+        "panel": 1
+      },
+      {
+        "title": "选择节目观看",
+        "action": "查看来源后点击想看的节目。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-20.png",
+        "panel": 2
+      },
+      {
+        "title": "适时暂停休息",
+        "action": "看一会就暂停，别点击陌生购物链接。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-20.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  },
+  "21": {
+    "title": "手机听书与看新闻",
+    "goal": "跟着四个步骤学习手机听书与看新闻。",
+    "preparation": "先看示意图和文字，再在自己的手机或生活场景中练习。",
+    "steps": [
+      {
+        "title": "打开正规应用",
+        "action": "打开正规听书或新闻应用。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-21.png",
+        "panel": 0
+      },
+      {
+        "title": "搜索想听的内容",
+        "action": "输入节目或书名查找内容。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-21.png",
+        "panel": 1
+      },
+      {
+        "title": "点播放或阅读",
+        "action": "选择合适节目播放或打开新闻。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-21.png",
+        "panel": 2
+      },
+      {
+        "title": "暂停并保存进度",
+        "action": "结束时暂停并查看收听记录。",
+        "check": "核对本步结果，确认无误后继续下一步。",
+        "image": "/tutorials/course-21.png",
+        "panel": 3
+      }
+    ],
+    "warning": "教学图不是真实业务页面，请以官方页面和个人实际情况为准。不要向陌生人提供验证码、密码或付款码。",
+    "practice": "按照步骤练习；涉及付款或提交申请时，先核对信息，确有需要再操作。"
+  }
+}

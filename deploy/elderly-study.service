@@ -1,0 +1,23 @@
+[Unit]
+Description=Elderly Study Backend
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=elderly
+Group=elderly
+WorkingDirectory=/opt/elderly-study
+Environment=SPRING_PROFILES_ACTIVE=prod
+EnvironmentFile=/etc/elderly-study/backend.env
+StateDirectory=elderly-study
+LogsDirectory=elderly-study
+ExecStart=/usr/bin/java @/opt/elderly-study/deploy/jvm.options -jar /opt/elderly-study/backend.jar
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=60
+NoNewPrivileges=true
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

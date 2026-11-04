@@ -1,0 +1,178 @@
+/* Shared App surfaces, including programmatically opened Vant dialogs. */
+:root {
+  --van-popup-round-radius: 24px;
+  --van-dialog-radius: 24px;
+  --van-dialog-width: 400px;
+  --van-dialog-button-height: 50px;
+  --van-picker-toolbar-height: 60px;
+  --van-picker-confirm-action-color: var(--van-primary-color);
+}
+
+.van-popup.van-popup--bottom {
+  left: 50%;
+  width: 100%;
+  max-width: 640px;
+  margin-left: max(-320px, -50vw);
+  max-height: 88vh;
+  max-height: 88dvh;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  border-radius: 24px 24px 0 0;
+  overscroll-behavior-y: contain;
+  scroll-padding-bottom: 24px;
+}
+
+.van-popup--bottom .popup-body {
+  padding: 24px 20px 20px;
+}
+
+.van-popup--bottom .popup-body > .page-title {
+  margin: 0 0 22px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.van-popup.van-dialog {
+  top: 50%;
+  width: min(400px, calc(100vw - 32px));
+  max-height: 88vh;
+  max-height: 88dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 16px 60px rgb(0 0 0 / 16%);
+}
+
+.van-dialog .van-dialog__header {
+  flex-shrink: 0;
+  padding: 24px 24px 18px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.van-dialog .van-dialog__content {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.van-dialog .van-dialog__message {
+  padding: 8px 24px 24px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.van-dialog .form-box { padding: 0 20px 8px; }
+
+/* Labels sit above inputs so large text and longer placeholders can wrap. */
+.van-dialog .van-field,
+.van-popup--bottom .popup-body .van-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--van-border-color, #ebedf0);
+  border-radius: 14px;
+  background: var(--van-background, #f7f8fa);
+}
+
+.van-dialog .van-field::after,
+.van-popup--bottom .popup-body .van-field::after { display: none; }
+
+.van-dialog .van-field__label,
+.van-popup--bottom .popup-body .van-field__label {
+  width: 100%;
+  margin-right: 0;
+  color: var(--van-text-color-2);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.van-dialog .van-field__value,
+.van-popup--bottom .popup-body .van-field__value {
+  flex-basis: 100%;
+  min-width: 0;
+  text-align: left;
+}
+
+.van-dialog .van-field__control,
+.van-popup--bottom .popup-body .van-field__control {
+  min-height: 32px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.van-dialog .van-field:focus-within,
+.van-popup--bottom .popup-body .van-field:focus-within {
+  border-color: var(--van-primary-color);
+}
+
+.van-dialog .van-dialog__footer {
+  flex-shrink: 0;
+  gap: 12px;
+  padding: 14px 20px 20px;
+}
+
+.van-dialog .van-dialog__footer::after,
+.van-dialog .van-dialog__footer .van-button::after { display: none; }
+
+.van-dialog .van-dialog__cancel,
+.van-dialog .van-dialog__confirm {
+  border-radius: 14px;
+  min-height: 50px;
+  height: auto;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.van-dialog .van-dialog__cancel {
+  background: var(--van-background, #f7f8fa);
+  color: var(--van-text-color-2);
+}
+
+.van-dialog .van-dialog__confirm,
+.van-dialog .van-dialog__confirm:active {
+  background: var(--van-primary-color);
+  color: var(--van-white, #fff);
+}
+
+.van-popup--bottom .form-actions { margin-top: 20px; }
+.van-popup--bottom .form-actions .van-button { min-height: 50px; border-radius: 14px; }
+
+.van-popup--bottom .van-picker__toolbar {
+  height: auto;
+  min-height: 60px;
+  padding: 6px;
+  gap: 8px;
+}
+.van-popup--bottom .van-picker__title {
+  white-space: normal;
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 600;
+}
+.van-popup--bottom .van-picker__confirm,
+.van-popup--bottom .van-picker__cancel {
+  flex-shrink: 0;
+  min-width: 64px;
+  min-height: 48px;
+  font-size: 17px;
+  border-radius: 12px;
+}
+.van-popup--bottom .van-picker__confirm { font-weight: 600; }
+.van-popup--bottom .van-action-sheet__item { min-height: 64px; padding: 16px 20px; }
+.van-popup--bottom .van-action-sheet__name { font-size: 18px; line-height: 1.5; }
+.van-popup--bottom .van-action-sheet__cancel { min-height: 54px; }
+.van-popup__close-icon { padding: 10px; margin: -8px; }
+
+html.high-contrast .van-dialog .van-field,
+html.high-contrast .van-popup--bottom .popup-body .van-field {
+  border: 2px solid #000;
+  background: #fff;
+}
+html.high-contrast .van-dialog__footer .van-button { border: 2px solid #000; }
+
+@media (prefers-reduced-motion: reduce) {
+  .van-popup, .van-dialog { transition-duration: 0.01ms; }
+}

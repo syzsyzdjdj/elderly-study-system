@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 白色展开的书本图标，置于暖橙背景上（108dp 自适应图标，内容位于中央安全区内） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,40 C49,35.5 41.5,33.5 32,33.5 L32,68.5 C41.5,68.5 49,70.5 54,75 C59,70.5 66.5,68.5 76,68.5 L76,33.5 C66.5,33.5 59,35.5 54,40 Z" />
+    <path
+        android:fillColor="#E8873A"
+        android:pathData="M52.5,40 L55.5,40 L55.5,74 L52.5,74 Z" />
+</vector>

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "📊 数据看板",
+    "path": "/admin/dashboard",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "⚡ Spark任务",
+    "path": "/admin/spark-tasks",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "分类人工复核",
+    "path": "/admin/classification-review",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "👥 用户管理",
+    "path": "/admin/users",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "📚 课程管理",
+    "path": "/admin/courses",
+    "roles": [
+      "admin",
+      "course_manager"
+    ]
+  },
+  {
+    "title": "🗂 分类管理",
+    "path": "/admin/categories",
+    "roles": [
+      "admin",
+      "course_manager"
+    ]
+  },
+  {
+    "title": "📢 公告资讯",
+    "path": "/admin/announcements",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "✅ 审核问答库",
+    "path": "/admin/faq",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "🎁 积分福利",
+    "path": "/admin/prizes",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "🏛 政务管理",
+    "path": "/admin/gov",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "💬 陪伴话术与提醒",
+    "path": "/admin/companion",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "🔊 TTS音频",
+    "path": "/admin/tts-audio",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "📖 数据字典",
+    "path": "/admin/dict",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "🛡 角色权限",
+    "path": "/admin/roles",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "📝 操作日志",
+    "path": "/admin/logs",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "⚙️ 系统设置",
+    "path": "/admin/settings",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "title": "👤 个人中心",
+    "path": "/admin/profile",
+    "roles": [
+      "admin",
+      "course_manager"
+    ]
+  }
+]

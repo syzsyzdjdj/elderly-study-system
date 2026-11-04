@@ -1,0 +1,23 @@
+[Unit]
+Description=Elderly Study ChatTTS
+After=network.target
+
+[Service]
+Type=simple
+User=tts
+WorkingDirectory=/opt/chattts
+Environment=TTS_APP_ROOT=/opt/chattts
+Environment=HF_HOME=/var/lib/chattts/models
+Environment=TTS_IDLE_TIMEOUT=0
+Environment=TTS_WARMUP=1
+# 同机或通过本机代理访问时保持回环地址；独立机器由私网代理提供受限入口。
+Environment=TTS_BIND_HOST=127.0.0.1
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/chattts/.venv/bin/python /opt/elderly-study/tools/tts_server.py --port 5050
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

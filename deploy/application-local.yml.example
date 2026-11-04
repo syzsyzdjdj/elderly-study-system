@@ -1,0 +1,22 @@
+# 复制到 backend/config/application-local.yml（不提交、不打包）。
+# 从项目根目录或 backend 目录运行，默认 dev 会读取它。
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/elderly_study?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: elderly_app
+    password: ''
+  flyway:
+    # 应用账号只有 CRUD 权限；空库建表使用独立迁移账号。
+    user: elderly_migrator
+    password: ''
+    baseline-on-migrate: false
+jwt:
+  secret: ''
+deepseek:
+  enabled: false
+chattts:
+  mode: http
+  api-url: http://127.0.0.1:5050/generate
+  startup-warmup: false
+  prewarm-on-startup: false
+# 本机需要 YARN 或 direct TTS 时，显式添加本机对应配置。

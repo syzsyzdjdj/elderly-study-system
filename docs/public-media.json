@@ -1,0 +1,45 @@
+{
+  "reviewedOn": "2026-11-04",
+  "files": [
+    {
+      "path": "docs/screenshots/login.jpg",
+      "sha256": "7415b42d0a20fa3485765ca664ff81d5cee6555a93d63fc79c8cd3694e36f744",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/home.jpg",
+      "sha256": "1abccef9649b3c14a0a6484cda69214e6f8f86de78633823bff7a08761b5e19c",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/study.jpg",
+      "sha256": "5d2d5b7b118c9766e4d4674af2b8c271ab78f8252cfed74c2199405237bba0fb",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/display.jpg",
+      "sha256": "a087cbdb338511cc15851214ff97148b79aa61441bf9056763c292f23d338c9b",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/recommendation.jpg",
+      "sha256": "f2096813e12d5dd51e537b3d1e9116c361716b81632b143229637eccaa77fd0b",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/qa.jpg",
+      "sha256": "8b8fed7b2839d8f31eba34839bc09be333f33a5691e4fc100e0617d77866b31b",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/admin.jpg",
+      "sha256": "7e5bf8e13b5bbaa0cc118917881e3184addb3de19a57c29b463de0517a727873",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    },
+    {
+      "path": "docs/screenshots/simple-registration-live.jpg",
+      "sha256": "bb072ca772cb3ebb9d5c0cab7a6f3e1d8f563d91cbda709061c124d9738a8913",
+      "basis": "Own application UI captured with demonstration data; visually reviewed 2026-11-04."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# 复制到 /etc/elderly-study/backup.cnf，填新密码，root:root 0600。
+[client]
+host=127.0.0.1
+port=3306
+user=elderly_backup
+password=

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spark 学情分析任务模块（独立于 Spring Boot 后端）
+  - 按 Spark 3.2.0 API 编译 + Java 8 字节码：同一份代码既可在后端 JVM 内嵌运行
+    （JDK17 + Spark 3.5.1 运行时），也可 spark-submit 提交到 VM 的 YARN 集群
+    （Java 8 + Spark 3.2.0）——所用 API 均为 3.2.0~3.5.1 稳定子集
+  - spark 依赖 scope=provided：本地由后端 classpath 提供 3.5.1，集群由 spark-submit 环境提供 3.2.0
+  - jieba-analysis 打包进主 jar（不 relocate，保持 dict 资源路径不变）
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.elderly</groupId>
+    <artifactId>spark-analysis</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>spark-analysis</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>8</maven.compiler.release>
+        <spark.version>3.2.0</spark.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId><artifactId>junit</artifactId><version>4.13.2</version><scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.12</artifactId>
+            <version>${spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.12</artifactId>
+            <version>${spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.12</artifactId>
+            <version>${spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- 中文分词（问答热点词频任务），纯 Java、Java 8 兼容，打包进本 jar -->
+        <dependency>
+            <groupId>com.huaban</groupId>
+            <artifactId>jieba-analysis</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- MySQL 驱动：JDBC 直连模式下 Spark 读 MySQL 用；集群上没有该驱动，必须 shade 进本 jar -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.1.2</version>
+                <configuration>
+                    <argLine>--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED</argLine>
+                </configuration>
+            </plugin>
+            <!-- 显式固定新版编译插件：老 Maven 默认的 2.3.2 不支持 release 参数，会导致 release=8 被忽略、
+                 JDK17 直接编出 61 字节码，YARN(Java 8) 容器加载时抛 UnsupportedClassVersionError -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>8</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

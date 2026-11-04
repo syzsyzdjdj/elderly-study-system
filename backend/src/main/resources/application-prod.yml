@@ -1,0 +1,27 @@
+server:
+  address: 127.0.0.1
+spring:
+  datasource:
+    username: ${DB_USERNAME:elderly_app}
+  flyway:
+    enabled: ${DB_MIGRATIONS_ENABLED:true}
+    user: ${DB_MIGRATION_USERNAME:}
+    password: ${DB_MIGRATION_PASSWORD:}
+    # 已有库需核验后人工 baseline，禁止自动接受未知表结构。
+    baseline-on-migrate: false
+upload:
+  dir: ${UPLOAD_DIR:/var/lib/elderly-study/uploads}
+spark:
+  mode: ${SPARK_MODE:local}
+  master-url: ${SPARK_MASTER:local[2]}
+  export-dir: ${SPARK_EXPORT_DIR:/var/lib/elderly-study/spark-tmp}
+chattts:
+  mode: ${TTS_MODE:http}
+  direct-python: ${TTS_PYTHON:/opt/chattts/.venv/bin/python}
+  direct-script: ${TTS_SCRIPT:/opt/elderly-study/tools/tts_server.py}
+logging:
+  file:
+    name: ${LOG_FILE:/var/log/elderly-study/backend.log}
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl

@@ -1,0 +1,7 @@
+[Unit]
+Description=Back up Elderly Study database and uploads
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/elderly-study/deploy/backup.sh
+UMask=0077

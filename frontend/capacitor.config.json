@@ -1,0 +1,12 @@
+{
+  "appId": "com.elderly.study",
+  "appName": "老年学堂",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

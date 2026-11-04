@@ -1,0 +1,87 @@
+node_modules
+
+# Only reviewed documentation screenshots may enter a public repository.
+/docs/screenshots/*
+!/docs/screenshots/login.jpg
+!/docs/screenshots/home.jpg
+!/docs/screenshots/study.jpg
+!/docs/screenshots/display.jpg
+!/docs/screenshots/recommendation.jpg
+!/docs/screenshots/qa.jpg
+!/docs/screenshots/admin.jpg
+!/docs/screenshots/simple-registration-live.jpg
+**/credentials.json
+**/test-account.json
+**/release.properties
+**/initial-admin.txt
+**/known_hosts
+*.sftp
+*.log
+*.sqlite
+*.sqlite3
+*.ibd
+
+# 来源/授权待核验的媒体保留本地，公开源码默认不带入。见 docs/media-inventory.json。
+/assets/seed/uploads/
+/frontend/public/tutorials/
+/frontend/public/voice-previews/
+**/src/main/res/**/*.png
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# 私有配置及密钥（示例允许提交）
+.env
+.env.*
+!.env.example
+!*.env.example
+**/config/application-local.yml
+**/application-private.yml
+deploy/*.env
+deploy/*.cnf
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# 运行数据及构建产物；不自动移除已跟踪文件
+**/target/
+**/dist/
+**/__pycache__/
+**/*.pyc
+**/logs/
+/uploads/
+/backend/uploads/
+spark-tmp/
+backend/spark-tmp/
+work/
+backups/
+
+# IDE 和原生应用的本机构建缓存；保留源码与 Gradle Wrapper。
+**/.idea/
+**/.gradle/
+**/build/
+**/local.properties
+*.iml
+.DS_Store
+Thumbs.db
+
+# 个人求职材料、Office 临时文件与文档生成产物。
+.pptx-build/
+/output/
+/report_images/
+**/~$*
+/*.docx
+/*.pdf
+/*.pptx
+/docs/*.docx
+/docs/*.pdf
+/docs/*.pptx
+/docs/ChatGPT Image*.png
+/docs/gen_resume_fair.js
+/complete_report.py
+/gen_images.py
+# 根目录 Node 依赖仅用于报告生成；frontend/package*.json 仍正常提交。
+/package.json
+/package-lock.json

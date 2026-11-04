@@ -1,0 +1,52 @@
+# 放入 Nginx http 上下文（通常是 sites-enabled 或 conf.d）。
+# 替换域名和证书路径，先 nginx -t 再 reload。
+server {
+    listen 80;
+    server_name study.example.com;
+    return 301 https://study.example.com$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name study.example.com;
+    ssl_certificate /etc/letsencrypt/live/study.example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/study.example.com/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    root /var/www/elderly-study;
+    index index.html;
+    client_max_body_size 105m;
+
+    location ^~ /api/ {
+        # 不附加 URI，保留 /api 路径。
+        proxy_pass http://127.0.0.1:8081;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_connect_timeout 5s;
+        proxy_read_timeout 240s;
+    }
+
+    location ^~ /uploads/ {
+        # 暂由后端提供资源，保留现有 Range/视频拖动行为。
+        proxy_pass http://127.0.0.1:8081;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_read_timeout 240s;
+        proxy_hide_header Cache-Control;
+        add_header Cache-Control "private, max-age=3600" always;
+        add_header X-Content-Type-Options nosniff always;
+    }
+
+    location = /index.html {
+        add_header Cache-Control "no-cache" always;
+    }
+    location /assets/ {
+        try_files $uri =404;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+    location ~ /\. { deny all; }
+}

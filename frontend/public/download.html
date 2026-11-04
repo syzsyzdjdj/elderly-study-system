@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>下载老年学堂 App</title>
+  <style>
+    [hidden]{display:none!important}*{box-sizing:border-box}body{margin:0;background:#f4f7f3;color:#173927;font:18px/1.8 system-ui,sans-serif}main{max-width:620px;margin:48px auto;padding:28px;background:white;border:1px solid #dae6db;border-radius:24px}h1{font-size:30px;line-height:1.4}p{margin:16px 0}.badge{color:#477455;font-weight:600}a{color:#166534}.button{display:block;text-align:center;padding:16px;border-radius:14px;background:#166534;color:white;text-decoration:none;font-weight:700}.secondary{display:block;text-align:center;margin:16px 0}small{display:block;color:#52645a;font-size:14px;overflow-wrap:anywhere}ol{padding-left:25px}.notice{background:#f0f7ef;padding:16px;border-radius:12px}#status{color:#52645a}@media(max-width:660px){main{margin:16px;padding:22px}}
+  </style>
+</head>
+<body><main>
+  <div class="badge">老年学堂 · Android</div>
+  <h1>把学堂装进手机</h1>
+  <p>学手机、防诈骗，按步骤慢慢学。安装后可用自己的账号登录，课程与学习记录连接同一个学堂。</p>
+  <p id="status" role="status">正在检查安装包…</p>
+  <a id="download" class="button" hidden>下载 Android 安装包</a>
+  <small id="details"></small><small id="checksum"></small>
+  <a class="secondary" href="/">先用网页版体验</a>
+  <div class="notice"><strong>安装方法</strong><ol><li>在 Android 手机浏览器中打开本页，点击下载。</li><li>下载完成后打开 APK，按系统提示确认安装；如需允许浏览器安装应用，仅对本次使用的浏览器授权。</li><li>打开“老年学堂”，注册或登录自己的账号。使用时需要联网。</li></ol></div>
+  <p>微信内无法下载时，请点右上角菜单，选择“在浏览器打开”。iPhone 请使用网页版，不能安装此 APK。</p>
+  <small>这是直接下载的 Android 体验版，未通过应用商店分发。请只从本页取得安装包；若系统提示签名冲突，请先确认是否装有旧测试版，卸载会清除其本机数据。</small>
+</main><script>
+  (async()=>{const status=document.getElementById('status');try{const r=await fetch('/downloads/latest.json',{cache:'no-store'});if(!r.ok)throw Error('unavailable');const m=await r.json();if(!/^\/downloads\/[A-Za-z0-9._-]+\.apk$/.test(m.url)||!/^\d+$/.test(String(m.size))||! /^[a-f0-9]{64}$/.test(m.sha256))throw Error('invalid');const a=document.getElementById('download');a.href=m.url;a.download='elderly-study.apk';a.hidden=false;status.textContent='安装包已就绪';document.getElementById('details').textContent=`版本 ${m.version} · ${(m.size/1024/1024).toFixed(2)} MB · Android ${m.minAndroid} 及以上 · 更新 ${m.date}`;document.getElementById('checksum').textContent='SHA-256：'+m.sha256;}catch{status.textContent='安装包暂未就绪，请稍后再试；现在可以先使用网页版。';}})();
+</script></body></html>
+

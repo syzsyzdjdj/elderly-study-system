@@ -1,0 +1,13 @@
+-- DBA 审阅后执行；先替换三处密码占位符。此模板不会自动执行。
+-- 同机 TCP 连接示例；远程数据库须改为服务器实际来源地址，避免 %。
+CREATE DATABASE IF NOT EXISTS elderly_study CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'elderly_app'@'127.0.0.1' IDENTIFIED BY '__NEW_APP_PASSWORD__';
+GRANT SELECT, INSERT, UPDATE, DELETE ON elderly_study.* TO 'elderly_app'@'127.0.0.1';
+
+CREATE USER 'elderly_migrator'@'127.0.0.1' IDENTIFIED BY '__NEW_MIGRATION_PASSWORD__';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX, REFERENCES,
+  CREATE TEMPORARY TABLES, LOCK TABLES, CREATE ROUTINE, ALTER ROUTINE, EXECUTE, TRIGGER
+  ON elderly_study.* TO 'elderly_migrator'@'127.0.0.1';
+
+CREATE USER 'elderly_backup'@'127.0.0.1' IDENTIFIED BY '__NEW_BACKUP_PASSWORD__';
+GRANT SELECT, SHOW VIEW, TRIGGER ON elderly_study.* TO 'elderly_backup'@'127.0.0.1';

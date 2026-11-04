@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.elderly.app'
+    compileSdk 35
+    buildFeatures { buildConfig true }
+
+    defaultConfig {
+        applicationId "com.elderly.study"
+        minSdk 24
+        targetSdk 35
+        versionCode 5
+        versionName "1.3.1"
+        def appUrl = providers.gradleProperty('appBaseUrl').orElse('').get()
+        if (!appUrl) throw new GradleException('Set -PappBaseUrl=https://your-server/ explicitly; no service address is bundled by default')
+        def parsedUrl = new URI(appUrl)
+        if (parsedUrl.scheme != 'https' || !parsedUrl.host || parsedUrl.rawUserInfo
+                || parsedUrl.rawQuery || parsedUrl.rawFragment || !(parsedUrl.path in ['', '/'])) {
+            throw new GradleException('appBaseUrl must be an HTTPS origin without credentials, query, fragment or API path')
+        }
+        buildConfigField 'String', 'APP_BASE_URL', '"' + appUrl + '"'
+    }
+
+    signingConfigs {
+        release {
+            def signingFile = System.getenv('ELDERLY_SIGNING_FILE')
+            if (signingFile) {
+                def props = new Properties()
+                file(signingFile).withInputStream { props.load(it) }
+                storeFile file(props['storeFile'])
+                storePassword props['storePassword']
+                keyAlias props['keyAlias']
+                keyPassword props['keyPassword']
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (System.getenv('ELDERLY_SIGNING_FILE')) signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies { implementation 'androidx.webkit:webkit:1.12.1' }

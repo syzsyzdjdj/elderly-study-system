@@ -1,0 +1,111 @@
+server:
+  port: ${SERVER_PORT:8081}
+spring:
+  application:
+    name: elderly-study-backend
+  profiles:
+    default: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/elderly_study?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai}
+    username: ${DB_USERNAME:elderly_app}
+    password: ${DB_PASSWORD:}
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:10}
+      minimum-idle: 2
+  flyway:
+    baseline-on-migrate: false
+    baseline-version: 1
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 105MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      write-dates-as-timestamps: false
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+jwt:
+  secret: ${JWT_SECRET:}
+  expire: 86400000
+deepseek:
+  enabled: ${DEEPSEEK_ENABLED:true}
+  api-key: ${DEEPSEEK_API_KEY:}
+  api-url: https://api.deepseek.com/chat/completions
+  model: deepseek-chat
+  connect-timeout: 15000
+  read-timeout: 60000
+weather:
+  api-host: ${QWEATHER_API_HOST:}
+  api-key: ${QWEATHER_API_KEY:}
+chattts:
+  mode: ${TTS_MODE:http}
+  api-url: ${TTS_API_URL:http://127.0.0.1:5050/generate}
+  api-key: ${TTS_API_KEY:}
+  startup-warmup: ${TTS_STARTUP_WARMUP:true}
+  prewarm-on-startup: ${TTS_PREWARM_ON_STARTUP:true}
+  cache-version: ${TTS_CACHE_VERSION:v1}
+  connect-timeout: 5000
+  request-timeout: 180000
+  direct-python: ${TTS_PYTHON:python3}
+  direct-script: ${TTS_SCRIPT:tools/tts_server.py}
+  app-root: ${TTS_APP_ROOT:}
+  model-cache: ${HF_HOME:}
+  direct-url: ${TTS_DIRECT_URL:http://127.0.0.1:5050}
+  direct-port: 5050
+  direct-startup-timeout: 300000
+  direct-request-timeout: 600000
+  bridge-enabled: false
+  bridge-command: [node, tools/tts_bridge.js]
+  bridge-timeout: 300000
+spark:
+  mode: ${SPARK_MODE:local}
+  master-url: ${SPARK_MASTER:local[2]}
+  data-scope: real
+  export-dir: ${SPARK_EXPORT_DIR:./spark-tmp}
+  yarn:
+    host: ${SPARK_YARN_HOST:}
+    user: ${SPARK_YARN_USER:spark}
+    ssh-key: ${SPARK_SSH_KEY:}
+    remote-dir: ${SPARK_REMOTE_DIR:/opt/elderly-spark}
+    hdfs-base: ${SPARK_HDFS_BASE:}
+    jar-path: ${SPARK_JAR_PATH:spark-analysis/target/spark-analysis-1.0.0.jar}
+    driver-memory: 1g
+    executor-memory: 1g
+    num-executors: 1
+    executor-cores: 1
+    submit-timeout: 600000
+    # 留空走快照文件中转，集群不需要直连业务数据库。
+    jdbc-url: ${SPARK_JDBC_URL:}
+    jdbc-user: ${SPARK_JDBC_USER:}
+    jdbc-password: ${SPARK_JDBC_PASSWORD:}
+upload:
+  dir: ${UPLOAD_DIR:./uploads}
+app:
+  bootstrap-admin:
+    enabled: ${BOOTSTRAP_ADMIN_ENABLED:false}
+    username: ${BOOTSTRAP_ADMIN_USERNAME:}
+    password: ${BOOTSTRAP_ADMIN_PASSWORD:}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:}
+logging:
+  file:
+    name: ${LOG_FILE:./logs/backend.log}
+  logback:
+    rollingpolicy:
+      max-file-size: 20MB
+      max-history: 14
+      total-size-cap: 500MB
+  level:
+    root: info
+    org.apache.spark: warn
+    org.apache.hadoop: warn
+    org.spark_project: warn
+    org.sparkproject: warn
+    org.apache.parquet: warn
+    org.apache.avro: warn
+    org.eclipse.jetty: warn

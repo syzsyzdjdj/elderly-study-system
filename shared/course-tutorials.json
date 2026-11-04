@@ -1,0 +1,221 @@
+{
+  "3": {
+    "goal": "学会给家人发起视频通话，并安全结束通话。",
+    "preparation": "先连接稳定网络，确认对方已是微信好友；视频会消耗流量，使用移动网络可能产生运营商流量费用。",
+    "steps": [
+      {
+        "title": "打开聊天，展开更多功能",
+        "action": "在微信打开家人的聊天窗口，点输入框右侧的“＋”，再点展开面板中的“视频通话”。",
+        "check": "出现视频、语音选择菜单，或按当前版本直接进入呼叫画面。",
+        "image": "/tutorials/official/wechat-2.webp",
+        "imageAlt": "微信聊天页，加号右下方的面板中显示视频通话按钮",
+        "imageCaption": "黄色圆圈标出了“视频通话”；加号在输入框最右侧。",
+        "source": {
+          "publisher": "Apple App Store",
+          "title": "怎么用《微信》视频聊天？",
+          "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+          "date": null,
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "再次选择视频通话",
+        "action": "如果弹出底部菜单，轻点“视频通话”；如果已经进入呼叫画面，直接继续下一步。首次使用时，按通话需要允许摄像头和麦克风权限。",
+        "check": "出现等待对方接听的画面。",
+        "image": "/tutorials/official/wechat-3.webp",
+        "imageAlt": "微信弹出菜单中的视频通话选项",
+        "imageCaption": "选择上方的“视频通话”，发起带画面的通话。",
+        "source": {
+          "publisher": "Apple App Store",
+          "title": "怎么用《微信》视频聊天？",
+          "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+          "date": null,
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "等待接听，结束后挂断",
+        "action": "等待家人接听。聊天结束后轻点底部红色电话按钮；呼叫时也可用此按钮取消。",
+        "check": "通话结束并返回聊天窗口。",
+        "image": "/tutorials/official/wechat-4.webp",
+        "imageAlt": "微信呼叫画面，底部显示红色挂断按钮",
+        "imageCaption": "图中为等待接听状态，红色电话按钮用于取消呼叫或结束通话。",
+        "source": {
+          "publisher": "Apple App Store",
+          "title": "怎么用《微信》视频聊天？",
+          "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+          "date": null,
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      }
+    ],
+    "warning": "陌生人要求视频转账、出示付款码或共享屏幕时，请结束通话并联系家人核实。",
+    "practice": "给一位熟悉的家人发起视频通话，说一句问候，再挂断。",
+    "scope": "截图为 iPhone 微信界面，保留官方教程的操作标注。具体微信版本和发布日期原站未标注；安卓按钮位置可能不同。"
+  },
+  "4": {
+    "goal": "找到字体与音量设置，让手机更容易看清、听清。",
+    "preparation": "本课以三星 Galaxy 手机为例。华为、小米、OPPO、vivo 和 iPhone 的菜单名称、位置可能不同。",
+    "steps": [
+      {
+        "title": "打开手机设置",
+        "action": "在桌面找到齿轮形状的“设置”，轻点打开。",
+        "check": "看到设置列表。",
+        "image": "/tutorials/official/font-1.png",
+        "imageAlt": "三星桌面，蓝框中的设置图标",
+        "imageCaption": "蓝框内的齿轮图标就是“设置”。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "三星手机如何更改字体大小",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+          "date": "2025-10-24",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "进入显示设置",
+        "action": "在设置列表中找到“显示”，轻点打开。",
+        "check": "进入显示页面。",
+        "image": "/tutorials/official/font-2.png",
+        "imageAlt": "三星设置列表，蓝框标出显示",
+        "imageCaption": "“显示”位于“通知”下方。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "三星手机如何更改字体大小",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+          "date": "2025-10-24",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "找到字体大小和样式",
+        "action": "在显示页面轻点“字体大小和样式”。",
+        "check": "看到预览文字和字体大小滑块。",
+        "image": "/tutorials/official/font-3.png",
+        "imageAlt": "三星显示页面，蓝框中的字体大小和样式",
+        "imageCaption": "点击蓝框位置，注意与下方“屏幕缩放”区分。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "三星手机如何更改字体大小",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+          "date": "2025-10-24",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "拖动滑块放大字体",
+        "action": "把底部“字体大小”滑块向右移动一档，观察预览，看得清楚就停。需要加粗时可打开“粗体”。",
+        "check": "返回常用应用，文字和按钮仍能看清。",
+        "image": "/tutorials/official/font-4.png",
+        "imageAlt": "三星字体大小和样式页面，底部字体大小滑块",
+        "imageCaption": "向右字体变大，向左变小，不必直接调到最大。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "三星手机如何更改字体大小",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+          "date": "2025-10-24",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "进入声音和振动",
+        "action": "返回设置主列表，轻点“声音和振动”。",
+        "check": "看到声音、振动、铃声和音量选项。",
+        "image": "/tutorials/official/sound-1.png",
+        "imageAlt": "三星设置中蓝框标出的声音和振动",
+        "imageCaption": "字体与声音分属不同的设置页面。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "Samsung Galaxy 设备上的声音、振动和通知",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/sounds-vibrations-and-notifications-on-your-samsung-galaxy-devices/",
+          "date": "2024-09-18",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "分别调整铃声与媒体音量",
+        "action": "需要来电响铃时，先把顶部模式选为“声音”。轻点“音量”，进入后分别调整媒体和铃声滑块，再播放声音检查。从低音量开始逐步调大。",
+        "check": "视频声音和来电铃声都能听清；没有铃声时检查是否处于振动或静音模式。",
+        "image": "/tutorials/official/sound-2.png",
+        "imageAlt": "三星声音和振动页面，系统声音下方的音量入口",
+        "imageCaption": "此图展示音量入口，点击后才会出现滑块；图中当前选中了振动模式。",
+        "source": {
+          "publisher": "三星电子中国",
+          "title": "Samsung Galaxy 设备上的声音、振动和通知",
+          "url": "https://www.samsung.com.cn/support/mobile-devices/sounds-vibrations-and-notifications-on-your-samsung-galaxy-devices/",
+          "date": "2024-09-18",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      }
+    ],
+    "warning": "媒体音量与铃声音量不是同一个设置；耳机使用时请从较低音量开始。",
+    "practice": "把字体调大一档，读一条消息；再播放一段熟悉的声音检查音量。",
+    "scope": "字体图来自 2025-10-24 更新的三星指南，声音图来自 2024-09-18 指南。原站未标注系统具体版本。"
+  },
+  "15": {
+    "goal": "学会查找生活缴费入口，核对户号与账单。",
+    "preparation": "准备自家的缴费单，确认户号、城市和缴费单位；确有缴费需要再进行支付。",
+    "steps": [
+      {
+        "title": "打开微信服务",
+        "action": "打开微信，轻点右下角“我”，再点“服务”。",
+        "check": "进入微信服务页面。",
+        "image": "/tutorials/official/bills-entry.png",
+        "imageAlt": "微信我的页面，红框标出服务入口",
+        "imageCaption": "原图已遮挡头像和个人信息。",
+        "source": {
+          "publisher": "上水奉贤公司",
+          "title": "微信生活缴费水费代扣操作指南（仅引用入口截图）",
+          "url": "https://www.fengxianwater.com/pages/gsyw_xwxq.aspx?id=611&model=3",
+          "date": "2024-11-07",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "找到生活缴费",
+        "action": "在“生活服务”区域轻点“生活缴费”。",
+        "check": "进入生活缴费页面。",
+        "image": "/tutorials/official/bills-search.png",
+        "imageAlt": "微信服务页面，红框标出生活缴费",
+        "imageCaption": "绿色水滴图标下方写着“生活缴费”。",
+        "source": {
+          "publisher": "上水奉贤公司",
+          "title": "微信生活缴费水费代扣操作指南（仅引用入口截图）",
+          "url": "https://www.fengxianwater.com/pages/gsyw_xwxq.aspx?id=611&model=3",
+          "date": "2024-11-07",
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      },
+      {
+        "title": "选项目、填户号、核对账单",
+        "action": "按图中从左到右顺序，选择水费、电费或燃气费，核对城市和缴费单位，输入自家户号并查询，核对户名和金额。信息不一致就先停止。",
+        "check": "户号、缴费单位、户名、金额均已确认，确需缴费再按实际页面支付。",
+        "image": "/tutorials/official/bills-life.jpg",
+        "imageAlt": "微信支付官方三联截图，展示选择费种、输入户号、选择金额",
+        "imageCaption": "官方旧版图以武汉电费为例，不要照抄示例户号、城市和金额；可点击缩放。",
+        "source": {
+          "publisher": "微信支付商户平台",
+          "title": "智慧生活缴费 · 生活缴费入口",
+          "url": "https://pay.wechatpay.cn/static/solution/solution_detail_payment.shtml",
+          "date": null,
+          "checkedAt": "2026-11-03",
+          "version": "原站未标注具体应用版本"
+        }
+      }
+    ],
+    "warning": "图片仅供学习，不能在课程中缴费。付款后在实际应用查看缴费记录；处理中不要重复付款。不要因看教程而开通自动扣费，也不要向陌生人提供支付密码或验证码。",
+    "practice": "先练习找到入口和核对户号；只有确实需要缴费时才进行真实支付。",
+    "scope": "前两张入口图来自上海上水奉贤 2024 年指南；户号与账单三联图来自微信支付官方旧版页面（未标注日期）。旧版图仅作流程参考，城市、单位、金额与界面以自己的页面为准。"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-11-03",
+  "scope": "CourseStepGuide 当前使用的课程 3、4、15；其他课程正文与封面未更换",
+  "assets": [
+    {
+      "path": "frontend/public/tutorials/official/wechat-2.webp",
+      "originalImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9f/02/47/9f0247d3-3281-c6de-30ad-0b28b9661d03/201966f9-739e-4fca-b538-5d564c9b4fa8.png/1275x1954bb.webp",
+      "source": {
+        "publisher": "Apple App Store",
+        "title": "怎么用《微信》视频聊天？",
+        "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+        "date": null,
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "ce8377480df6802709be39b49fc219ecae66092b8377a14a59bd37b19fabe0ff",
+      "bytes": 154694,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/wechat-3.webp",
+      "originalImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/87/65/b3/8765b354-5bd2-02c4-3098-362dc9255d84/21b74de5-c190-4534-b6aa-1ae8ebf66e5f.png/1275x807bb.webp",
+      "source": {
+        "publisher": "Apple App Store",
+        "title": "怎么用《微信》视频聊天？",
+        "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+        "date": null,
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "0e471096328ceb06a13e3663f7e78ac23615008e253116595039bcc4eb56c77e",
+      "bytes": 79430,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/wechat-4.webp",
+      "originalImageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/71/4c/d8/714cd869-4e79-678c-1463-fe70ef5b6122/dc84da42-710c-4e0f-abd6-fece19ad63fb.png/1275x1915bb.webp",
+      "source": {
+        "publisher": "Apple App Store",
+        "title": "怎么用《微信》视频聊天？",
+        "url": "https://apps.apple.com/cn/iphone/story/id1688965540",
+        "date": null,
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "63b1eb53f7d372f9f5d415b0355b67606d0933c386d2238401af66c1d2d0490f",
+      "bytes": 164110,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/font-1.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/support/faq-csk/shezhi11.png?$ORIGIN_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "三星手机如何更改字体大小",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+        "date": "2025-10-24",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "ae37691ee0fcf21597d49f4677bc497915f10d6d5466b5fb15c3af2eccf72693",
+      "bytes": 227426,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/font-2.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/support/faq-csk/zitidaxiao11.png?$ORIGIN_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "三星手机如何更改字体大小",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+        "date": "2025-10-24",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "2643692cf4aa4a57a147561317504c018580a5b676cf20c261c9457ddef3d3a5",
+      "bytes": 62040,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/font-3.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/support/faq-csk/zitidaxiao22.png?$ORIGIN_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "三星手机如何更改字体大小",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+        "date": "2025-10-24",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "ebe875029e9c9a91d386bfc12b9fa8ac5d9a11dcecf07859c0e059bad6724d2b",
+      "bytes": 56348,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/font-4.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/support/faq-csk/zitidaxiao33.png?$ORIGIN_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "三星手机如何更改字体大小",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/samsung-galaxy-note8-sm-n9500-n9508-how-can-i-change-font-size-and-font-style/",
+        "date": "2025-10-24",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "9b35046f9cf2dc41b0f9047bf4af1395c4755f32d46d6616438472fd5e9a1032",
+      "bytes": 37146,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/sound-1.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/mx-faqs-24/mx-faq-24-8-12/cn-24-8-12-Accd-1-1-Step-1.png?$684_N_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "Samsung Galaxy 设备上的声音、振动和通知",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/sounds-vibrations-and-notifications-on-your-samsung-galaxy-devices/",
+        "date": "2024-09-18",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "1067a84080eedd08e2d3c518119d36dedaa637aa3d730feaf396e508d9e6b4bb",
+      "bytes": 128706,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/sound-2.png",
+      "originalImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/mx-faqs-24/mx-faq-24-8-12/cn-24-8-12-Accd-1-1-Step-2.png?$684_N_PNG$",
+      "source": {
+        "publisher": "三星电子中国",
+        "title": "Samsung Galaxy 设备上的声音、振动和通知",
+        "url": "https://www.samsung.com.cn/support/mobile-devices/sounds-vibrations-and-notifications-on-your-samsung-galaxy-devices/",
+        "date": "2024-09-18",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "993b58957f2ac06d1dc4478698138eb935ceab6af63aae92c81ef91635f5c256",
+      "bytes": 89450,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/bills-entry.png",
+      "originalImageUrl": "https://www.fengxianwater.com/image/1%2825%29.png",
+      "source": {
+        "publisher": "上水奉贤公司",
+        "title": "微信生活缴费水费代扣操作指南（仅引用入口截图）",
+        "url": "https://www.fengxianwater.com/pages/gsyw_xwxq.aspx?id=611&model=3",
+        "date": "2024-11-07",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "71e7773aa9829f3b41935fa22ac451e16aeaa3c5ffc5d6e9cd8808ed5d95040f",
+      "bytes": 20668,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/bills-search.png",
+      "originalImageUrl": "https://www.fengxianwater.com/image/2%2814%29.png",
+      "source": {
+        "publisher": "上水奉贤公司",
+        "title": "微信生活缴费水费代扣操作指南（仅引用入口截图）",
+        "url": "https://www.fengxianwater.com/pages/gsyw_xwxq.aspx?id=611&model=3",
+        "date": "2024-11-07",
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "15d050f552b5d6314dfbf917a777645d12cc6baea7187e21323c153e21e19ce1",
+      "bytes": 51313,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    },
+    {
+      "path": "frontend/public/tutorials/official/bills-life.jpg",
+      "originalImageUrl": "https://gtimg.wechatpay.cn/pay/img/solution/payment/life/1.jpg",
+      "source": {
+        "publisher": "微信支付商户平台",
+        "title": "智慧生活缴费 · 生活缴费入口",
+        "url": "https://pay.wechatpay.cn/static/solution/solution_detail_payment.shtml",
+        "date": null,
+        "checkedAt": "2026-11-03",
+        "version": "原站未标注具体应用版本"
+      },
+      "sha256": "edc2960c55c4187d15608362b3092f198952cfd29b8dce709f55459080eaa091",
+      "bytes": 60872,
+      "modifications": "原图，未裁剪、未重绘",
+      "rightsStatus": "官方公开教程引用；未取得独立再分发授权；沿用公开包排除策略"
+    }
+  ]
+}
